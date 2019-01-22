@@ -4,6 +4,6 @@ all_commit() {
     git log --stat | $(git reflog)
 }
 
-local commitsa = all_commit
+local commits = all_commit
 
-echo commitsa
+echo commits
