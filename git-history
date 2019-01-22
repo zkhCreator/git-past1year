@@ -1,0 +1,9 @@
+git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
+
+all_commit() {
+    git log --stat | $(git reflog)
+}
+
+local commitsa = all_commit
+
+echo commitsa
