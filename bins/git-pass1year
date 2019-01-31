@@ -29,7 +29,7 @@ awk_data() {
 
 # print data with sorted
 main() {
-    printf "\nPass 1 Year code line(s)\n\n"
+    printf "\nPast 1 Year code line(s)\n\n"
     awk_data | sort -k2 -gr
     printf "\n"
 }
