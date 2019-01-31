@@ -1,6 +1,6 @@
 PREFIX ?= /usr/local
 BINPREFIX ?= $(PREFIX)/bin
-PLUGINNAME ?= git-pass1year
+PLUGINNAME ?= git-past1year
 SOURCEFILE ?= ./bins/$(PLUGINNAME)
 TARGETFILE ?= $(DESTDIR)$(BINPREFIX)/$(PLUGINNAME)
 

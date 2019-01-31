@@ -1,4 +1,4 @@
-# git-pass1year
+# git-past1year
 
 Show how much code you wrote in the past year
 
@@ -9,15 +9,15 @@ Show how much code you wrote in the past year
 ### Installing
 
 ```
-$ git clone git@github.com:zkhCreator/git-pass1year.git
+$ git clone git@github.com:zkhCreator/git-past1year.git
 
-$ cd git-pass1year
+$ cd git-past1year
 
 $ make (install)
 
 $ cd your_git_project
 
-$ git pass1year
+$ git past1year
 ```
 
 ## Authors
